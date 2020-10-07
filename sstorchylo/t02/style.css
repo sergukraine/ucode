@@ -1,0 +1,32 @@
+table{
+    text-align: center;
+}
+tr.header{
+    border-inline-end-color: transparent;
+    background-color:  black;
+    color: white;
+}
+img{
+    border-radius: 20%;
+    height: 120px;
+    width: 120px;
+}
+#soul{
+    background-color: orange;
+}
+#time{
+    background-color:green;
+}
+#space{
+    background-color:blue;
+}
+#mind{
+    background-color:yellow;
+}
+#reality{
+    background-color:red;
+}
+#power{
+    background-color:purple;
+}
+ 
