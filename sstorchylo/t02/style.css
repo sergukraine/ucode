@@ -1,16 +1,25 @@
-table{
+table {
+    border-collapse: collapse;
     text-align: center;
-}
-tr.header{
-    border-inline-end-color: transparent;
-    background-color:  black;
+  }
+  
+  thead {
+    border: 2px solid black;
+    background-color: black;
     color: white;
-}
-img{
-    border-radius: 20%;
+  }
+  
+  table, td {
+    border: 2px solid #ccc;
+    padding: 10px;
+  }
+  
+  img {
     height: 120px;
     width: 120px;
-}
+    border-radius: 20px;
+  }
+
 #soul{
     background-color: orange;
 }
