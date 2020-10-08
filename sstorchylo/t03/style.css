@@ -1,0 +1,20 @@
+
+form input[type=text]{
+    box-sizing: border-box;
+    float: left;
+    color: green;
+    width: 93.5%;
+    height: 2em;
+    padding: 0 10px 0 10px;
+}
+input[type=button]{
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
+    float: left;
+    color: green;
+    width: 6.5%;
+    height: 2em;
+}
+input:hover[type=text], input:hover[type=button]{
+    color: red;
+}
