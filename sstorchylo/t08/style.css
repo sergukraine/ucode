@@ -21,6 +21,22 @@ background-color: rgba(143,148,251, 0.1);
 tbody td:first-child {
     color: white;
   }
+  
   td {
-    color:midnightblue;
+    padding: 5px 50px;
+    color: midnightblue;
   }
+  a{
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     padding: 10px;
+  }
+  tbody tr td:not(:first-child) {
+    background: antiquewhite;
+  }
+.red{
+    color: white;
+    background-color:darkred !important;
+
+}
