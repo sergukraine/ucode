@@ -9,9 +9,9 @@
     <body>
         
         <h1>Superhero Form</h1>
-        <form>
-            <div  class="super"> 
-            <p>About the Superhero</p>
+        <form action="/index.html">
+            <fieldset>
+                <legend>About the Superhero</legend>
             <label for="rname">Real Name</label>
             <input type="text" id="rname" name="rname" placeholder="Superhero real name">
             <label for="sname">Superhero Name</label>
@@ -23,17 +23,45 @@
             </textarea><br><br>
             <label for="myfile">Photo:</label>
             <input type="file" id="myfile" name="myfile"><br>
-        </div>
-        <br>
-        <div  class="super"> 
-            <p>Powers</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Powers</legend>
+            <input type="checkbox" id="telekines" name="telekines" value="1">
+            <label for="telekines"> Telekinesis</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="2">
+            <label for="vehicle2"> Super strength or speed</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="3">
+            <label for="vehicle3"> Shapeshifting</label>
+            <input type="checkbox" id="vehicle4" name="vehicle4" value="4">
+            <label for="vehicle4"> Flight</label>
+            <input type="checkbox" id="vehicle5" name="vehicle5" value="5">
+            <label for="vehicle5"> Elemental control</label>
+            <input type="checkbox" id="vehicle6" name="vehicle6" value="6">
+            <label for="vehicle6"> Other</label><br><br>
+            <label for="vol">Level of control</label>
+            <input type="range" id="vol" name="vol" min="0" max="100" value="10">
+        </fieldset>  
             
-        </div>
+        
         <br>
-        <div  class="super"> 
-            <p>Origin of Powers</p>
-            
-        </div>
+        <fieldset>
+            <legend>Origin of Powers</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Unknown</label>
+            <input type="radio" id="female" name="gender1" value="female">
+            <label for="female">Freak lab accident</label>
+            <input type="radio" id="female2" name="gender2" value="female2">
+            <label for="female2">Chosen by an ancient wise being</label>
+            <input type="radio" id="female3" name="gender3" value="female3">
+            <label for="female3">The super hero not a human</label>
+            <input type="radio" id="other" name="gender4" value="other">
+            <label for="other">Other</label>
+        </fieldset> 
+        <br>   
+        <input type="submit" value="Clear"> 
+        <input type="submit" value="Send">    
+        
         </form>
 
     </html>
