@@ -1,15 +1,4 @@
-form{
+fieldset {
     border: 2px solid gray;
     padding: 20px;
-}
-.super {
-    position: relative;
-    border: 2px solid gray;
-    padding: 20px;
-    margin: 5px;
-}
-p{
-    position: absolute;
-    top:-25px;
-    background-color: white;
-}
+  }
