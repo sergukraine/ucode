@@ -1,0 +1,39 @@
+div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .match {
+    padding: 30px;
+    transform: scale(0.9, 1);
+  }
+  
+  .fire {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle 290px at 100% 0%, red, yellow);
+    border-radius: 100% 0% 100% 100%;
+    transform: rotate(-45deg);
+    box-shadow: 0px 0px 10px 2px rgb(243, 143, 143);
+    z-index: 1;
+  }
+  .top {
+    position: relative;
+    top: -55px;
+    width: 50px;
+    height: 60px;
+    background: #432f23;
+    background-image: linear-gradient(white 5%,  #432f23 60%);
+    border-radius: 50px / 60px;
+    box-shadow: 0 -10px 15px 5px white;
+    z-index: 3;
+  }
+  .stick {
+    position: relative;
+    top: -65px;
+    height: 300px;
+    width: 30px;
+    border: 1px solid #983430;
+    background: linear-gradient(to right, #894325, #E8A66B);
+    z-index: 2;
+  }
