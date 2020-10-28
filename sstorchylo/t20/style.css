@@ -23,6 +23,6 @@ body {
     animation-timing-function: ease;
   }
   .circle:hover {
-    transition: 1s;
+    transition: 2s;
     background: red;
   }
