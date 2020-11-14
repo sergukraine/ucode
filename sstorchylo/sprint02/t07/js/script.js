@@ -12,8 +12,7 @@ const f = '';
 let answer= 'Not my type\n\n';
 
 answer += getAnswer('a+b=?', a + b, Number(a) + b);
-answer += getAnswer('a+c=?', a + c, a + c);
-answer += getAnswer('e+d+e+d=?', e + d + e + d, e + d + e + d);
-answer += getAnswer('c+f=?', c + f, c + f);
-
+answer += getAnswer('a+c=?', a + c, Number(Boolean(a)) + Number(c));
+answer += getAnswer('e+d+e+d=?', e + d + e + d, e + d + String(Number(e)) + d);
+answer += getAnswer('c+f=?', c + f, String(Number(c)) + String(Number(f)));
 alert(answer);
